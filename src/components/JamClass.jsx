@@ -1,3 +1,4 @@
+import { PropTypes } from 'prop-types';
 import { Component } from 'react';
 import moment from 'moment';
 import currency from 'currency.js';
@@ -14,9 +15,30 @@ class JamClass extends Component {
 
     }
 
+    // static getDerivedStateFromProps(props, state) {
+    //     return { count: 10 };
+    // }
+
     incrementCount = () => {
-        this.setState({ count: this.state.count + 1 });
+        // this.setState({ count: this.state.count + 1 });
+        this.setState(prevState => ({ count: prevState.count + 1 }));
     }
+
+    componentDidMount() {
+        setTimeout(() => {
+            this.setState({ count: 100 })
+        }, 3000)
+    }
+
+    componentDidUpdate() {
+        setTimeout(() => {
+            this.setState({ count: 500 })
+        }, 3000)
+      }
+
+    //   componentWillUnmount() {
+    //     alert("The component named Header is about to be unmounted.");
+    //   }
 
     render() {
 
@@ -31,5 +53,9 @@ class JamClass extends Component {
         );
     }
 };
+
+JamClass.propTypes = {
+    warna: PropTypes.string.isRequired
+}
 
 export default JamClass;

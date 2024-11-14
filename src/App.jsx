@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
-import JamClass from './components/JamClass';
+import TodoPage from "./pages/TodoPage";
 
 const App = () => {
-  const warna = 'merah';
 
   return (
     <>
-      <JamClass warna={warna} />
+      <TodoPage/>
     </>
   );
 };
