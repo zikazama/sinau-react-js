@@ -1,0 +1,184 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Smith",
+      "age": 20,
+      "grade": "A",
+      "major": "Computer Science",
+      "email": "john.smith@email.com"
+    },
+    {
+      "id": 2,
+      "firstName": "Emma",
+      "lastName": "Johnson",
+      "age": 19,
+      "grade": "B+",
+      "major": "Mathematics",
+      "email": "emma.j@email.com"
+    },
+    {
+      "id": 3,
+      "firstName": "Michael",
+      "lastName": "Williams",
+      "age": 21,
+      "grade": "A-",
+      "major": "Physics",
+      "email": "m.williams@email.com"
+    },
+    {
+      "id": 4,
+      "firstName": "Sarah",
+      "lastName": "Brown",
+      "age": 20,
+      "grade": "B",
+      "major": "Chemistry",
+      "email": "sarah.b@email.com"
+    },
+    {
+      "id": 5,
+      "firstName": "David",
+      "lastName": "Jones",
+      "age": 22,
+      "grade": "A",
+      "major": "Engineering",
+      "email": "david.j@email.com"
+    },
+    {
+      "id": 6,
+      "firstName": "Lisa",
+      "lastName": "Davis",
+      "age": 19,
+      "grade": "B+",
+      "major": "Biology",
+      "email": "lisa.d@email.com"
+    },
+    {
+      "id": 7,
+      "firstName": "James",
+      "lastName": "Miller",
+      "age": 20,
+      "grade": "A-",
+      "major": "Psychology",
+      "email": "james.m@email.com"
+    },
+    {
+      "id": 8,
+      "firstName": "Emily",
+      "lastName": "Wilson",
+      "age": 21,
+      "grade": "B",
+      "major": "Economics",
+      "email": "emily.w@email.com"
+    },
+    {
+      "id": 9,
+      "firstName": "Daniel",
+      "lastName": "Taylor",
+      "age": 20,
+      "grade": "A",
+      "major": "History",
+      "email": "daniel.t@email.com"
+    },
+    {
+      "id": 10,
+      "firstName": "Jessica",
+      "lastName": "Anderson",
+      "age": 19,
+      "grade": "B+",
+      "major": "English",
+      "email": "jessica.a@email.com"
+    },
+    {
+      "id": 11,
+      "firstName": "Ryan",
+      "lastName": "Thomas",
+      "age": 22,
+      "grade": "A-",
+      "major": "Sociology",
+      "email": "ryan.t@email.com"
+    },
+    {
+      "id": 12,
+      "firstName": "Rachel",
+      "lastName": "Martinez",
+      "age": 20,
+      "grade": "B",
+      "major": "Art History",
+      "email": "rachel.m@email.com"
+    },
+    {
+      "id": 13,
+      "firstName": "Kevin",
+      "lastName": "Robinson",
+      "age": 21,
+      "grade": "A",
+      "major": "Philosophy",
+      "email": "kevin.r@email.com"
+    },
+    {
+      "id": 14,
+      "firstName": "Amanda",
+      "lastName": "Clark",
+      "age": 19,
+      "grade": "B+",
+      "major": "Political Science",
+      "email": "amanda.c@email.com"
+    },
+    {
+      "id": 15,
+      "firstName": "Christopher",
+      "lastName": "Rodriguez",
+      "age": 20,
+      "grade": "A-",
+      "major": "Architecture",
+      "email": "chris.r@email.com"
+    },
+    {
+      "id": 16,
+      "firstName": "Michelle",
+      "lastName": "Lee",
+      "age": 21,
+      "grade": "B",
+      "major": "Business",
+      "email": "michelle.l@email.com"
+    },
+    {
+      "id": 17,
+      "firstName": "Steven",
+      "lastName": "Walker",
+      "age": 20,
+      "grade": "A",
+      "major": "Music",
+      "email": "steven.w@email.com"
+    },
+    {
+      "id": 18,
+      "firstName": "Laura",
+      "lastName": "Hall",
+      "age": 19,
+      "grade": "B+",
+      "major": "Theater",
+      "email": "laura.h@email.com"
+    },
+    {
+      "id": 19,
+      "firstName": "Joseph",
+      "lastName": "Allen",
+      "age": 22,
+      "grade": "A-",
+      "major": "Communications",
+      "email": "joseph.a@email.com"
+    },
+    {
+      "id": 20,
+      "firstName": "Nicole",
+      "lastName": "Young",
+      "age": 20,
+      "grade": "B",
+      "major": "Education",
+      "email": "nicole.y@email.com"
+    }
+  ]
+}
