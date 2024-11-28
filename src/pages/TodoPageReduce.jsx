@@ -1,8 +1,11 @@
-import { useReducer, useRef, useState } from 'react'
+import { useContext, useReducer, useRef } from 'react'
 import { ItemNotesLayout } from '../layouts/ItemNotesLayout';
 import TodoReducer from '../reducer/TodoReducer';
+import { TodoContext } from '../context/TodoContext';
+
 const TodoPageReduce = () => {
-    const [notes, dispatch] = useReducer(TodoReducer, ["ini catatan"]);
+    const { todos } = useContext(TodoContext);
+    const [notes, dispatch] = useReducer(TodoReducer, todos);
     const inputNote = useRef(null);
 
     const actionSubmit = () => {
