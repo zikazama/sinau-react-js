@@ -7,6 +7,7 @@ import Login from "./pages/Login";
 import { AuthProvider } from "./context/AuthContext";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Logout from "./pages/Logout";
+import UsersPage from "./pages/UsersPage";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Nav />
         <Routes>
           <Route index path="/" element={<About />} />
+          <Route path="/users" element={<UsersPage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/logout" element={<Logout />} />
           <Route
